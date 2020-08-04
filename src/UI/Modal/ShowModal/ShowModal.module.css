@@ -1,0 +1,64 @@
+.ShowModal {
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(200, 200, 200, 0.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    max-width: 90%;
+    width: 500px;
+    animation-name: modalopen;
+    animation-duration: 1s;
+    z-index: 120;
+}
+
+.ShowModal .header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: #242333;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.header .btn {
+    height: 25px;
+    margin: auto 0;
+    background-color: #077b8a;
+    border: 1px solid transparent;
+}
+
+.main {
+    padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #555;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media (max-height: 900px) and (max-width: 600px ) {
+    .ShowModal {
+        transform: translate(-50%, 5%);
+        overflow: scroll;
+        height: 500px;
+    }
+}
+
+@media (max-height: 600px) {
+    .ShowModal {
+        transform: translate(-50%, -8%);
+        height: 450px;
+        overflow: scroll;
+    }
+}

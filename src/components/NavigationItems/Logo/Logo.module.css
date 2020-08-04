@@ -1,0 +1,51 @@
+.dateLogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.Logo {
+    background-color: #fff;
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Logo img {
+    height: 100%;
+}
+
+.logoTitle {
+    background-color: #eee;
+    padding: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: #d72631;
+    border-radius: 5px;
+}
+
+.date {
+    background-color: #1e3d59;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    color: #077b8a;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .dateLogo {
+        width: 90%;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 650px) {
+    .dateLogo {
+        width: 90%;
+        justify-content: flex-start;
+        margin-bottom: 7px;
+    }
+}

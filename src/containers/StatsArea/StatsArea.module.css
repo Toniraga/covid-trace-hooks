@@ -1,0 +1,23 @@
+.StatsArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+@media (max-width: 950px) {
+    .StatsArea {
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .StatsArea {
+        width: 100%;
+        max-width: 95%;
+    }
+}
+

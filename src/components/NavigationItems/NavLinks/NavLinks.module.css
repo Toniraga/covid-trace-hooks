@@ -1,0 +1,30 @@
+.NavLinks {
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: #077b8a;
+
+}
+
+.NavLinks .about {
+    background-color: #1e3d59;
+    margin: 0 0 0 30px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.NavLinks .faq {
+    background-color: #1e3d59;
+    margin: 0 0 0 30px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .NavLinks .about {
+        display: none;
+    }
+}

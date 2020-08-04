@@ -1,0 +1,13 @@
+.line {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 450px;
+    padding: 3px 15px;
+    max-height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.chart {
+    width: 100%;
+}

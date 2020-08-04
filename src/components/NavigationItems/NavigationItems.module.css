@@ -1,0 +1,28 @@
+.NavItems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #077b8a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width: 650px) {
+    .NavItems {
+        flex-direction: column;
+    }
+    .flex {
+        justify-content: space-around;
+        width: 90%;
+    }
+}

@@ -1,0 +1,8 @@
+.Skew {
+    height: 200px;
+    background-color: #077b8a;
+    transform: skew(0deg, -10deg) translateY(350px);
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
